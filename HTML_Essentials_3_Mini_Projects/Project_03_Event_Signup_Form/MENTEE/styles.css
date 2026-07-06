@@ -70,6 +70,14 @@ button {
   display: grid;
   gap: 16px;
 }
+input[type="radio"], 
+input[type="radio"] + label {
+    all: revert;
+}
+input[type="checkbox"], 
+input[type="checkbox"] + label {
+    all: revert;
+}
 @media (min-width: 720px) {
   .grid-2 {
     grid-template-columns: 1fr 1fr;
